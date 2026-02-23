@@ -16,8 +16,7 @@ pipeline {
     } 
     post { 
         success { 
-            echo 'Pipeline SUCCESS - Model validated'
-            echo 'jeetmanas' 
+            echo 'Pipeline SUCCESS - Model validated' 
         } 
         failure { 
             echo 'Pipeline FAILED - Check logs' 
